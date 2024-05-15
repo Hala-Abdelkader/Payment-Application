@@ -1,0 +1,12 @@
+﻿  Server.c
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(207,36): warning C4047: 'function': 'ST_accountsDB_t *' differs in levels of indirection from 'ST_accountsDB_t (*)[255]'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(207,25): warning C4024: 'isBlockedAccount': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(225,49): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'unsigned char (*)[25]'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(225,24): warning C4024: 'getCardHolderName': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(231,49): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'unsigned char (*)[20]'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(231,18): warning C4024: 'getCardPAN': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(240,55): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'unsigned char (*)[6]'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(240,26): warning C4024: 'getCardExpiryDate': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(50): warning C4715: 'recieveTransactionData': not all control paths return a value
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(84): warning C4715: 'isAmountAvailable': not all control paths return a value
+  Payment Application.vcxproj -> C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\x64\Debug\Payment Application.exe

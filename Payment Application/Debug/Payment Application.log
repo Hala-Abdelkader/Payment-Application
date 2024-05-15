@@ -1,0 +1,15 @@
+﻿  Server.c
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(45,27): warning C4133: 'function': incompatible types - from 'ST_terminalData_t *' to 'ST_transaction_t *'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(220,36): warning C4047: 'function': 'ST_accountsDB_t *' differs in levels of indirection from 'ST_accountsDB_t (*)[255]'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(220,25): warning C4024: 'isBlockedAccount': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(238,49): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'unsigned char (*)[25]'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(238,24): warning C4024: 'getCardHolderName': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(244,49): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'unsigned char (*)[20]'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(244,18): warning C4024: 'getCardPAN': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(253,55): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'unsigned char (*)[6]'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(253,26): warning C4024: 'getCardExpiryDate': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(267,35): warning C4047: 'function': 'ST_terminalData_t *' differs in levels of indirection from 'int'
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(267,25): warning C4024: 'setMaxAmount': different types for formal and actual parameter 1
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(84): warning C4715: 'isAmountAvailable': not all control paths return a value
+C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Payment Application\Server\Server.c(51): warning C4715: 'recieveTransactionData': not all control paths return a value
+  Payment Application.vcxproj -> C:\Users\halae\OneDrive\Desktop\Embedded systems\Payment_Application\Payment Application\Debug\Payment Application.exe

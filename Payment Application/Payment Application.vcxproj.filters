@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="App\App.c" />
+    <ClCompile Include="Card\Card.c" />
+    <ClCompile Include="Server\Server.c" />
+    <ClCompile Include="Terminal\Terminal.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\App.h" />
+    <ClInclude Include="Card\Card.h" />
+    <ClInclude Include="Server\Server.h" />
+    <ClInclude Include="Terminal\Terminal.h" />
+  </ItemGroup>
+</Project>
